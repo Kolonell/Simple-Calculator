@@ -75,7 +75,7 @@ def button_equal():
         e.delete(0, END)
         e.insert(0,f_num)
 
-# These are the buttons for selecting the numbers
+# These are the buttons for selecting the numbers, we use lambda for the command because the function take a parameter
 button_1 = Button(root, text="1", padx=40, pady=20, command=lambda: button_click(1))
 button_2 = Button(root, text="2", padx=40, pady=20, command=lambda: button_click(2))
 button_3 = Button(root, text="3", padx=40, pady=20, command=lambda: button_click(3))
